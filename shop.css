@@ -1,0 +1,83 @@
+
+/* 店铺中间内容 */
+.shop_content{
+	clear: both;
+	overflow: hidden;
+}
+
+/* 菜单部分 */
+.shop_content{
+	
+}
+.shop_content .shop_menu{
+	width:25%;
+	float: left;
+	height: 100%;
+	background-color:#f7f7f7;
+	border-right: 1px solid #ddd;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+ .shop_menu_list{
+	color:#666;
+	font-size: .5rem;
+	font-weight:600;
+	padding:.85333333rem .42666667rem;
+	border-bottom:1px solid #ddd;
+}
+
+/* 店铺详情页右边详情部分 */
+.shop_food{
+	width:75%;
+	height:100%;
+	float: left;
+	overflow-y: auto;
+}
+.shop_food .news{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color:#666;
+	padding:.5rem;
+	font-size:.34133333rem;
+	background-color:#eceff1;
+}   
+
+.shop_food .menu_details ul li{
+	position: relative;
+	padding:.21333333rem;
+	background-color:#fff;
+	border-bottom:1px solid #ccc;
+}
+.menu_details_left img{
+	width:2.98666667rem;
+	height:2.98666667rem;
+}
+.menu_details_right{
+	position: absolute;
+	left:32%;
+	top:20%;
+}
+.menu_details_right .menu_d_r_name{
+	display:block;
+	font-size:.6rem;
+	color:#333;
+	padding-bottom:.4rem;
+}
+.menu_details_right .menu_d_r_pj{
+	font-size:.4rem;
+	color:#666;
+	display:block;
+	
+}
+.menu_details_right .menu_d_r_price{
+	color:#ff6000;
+	font-size:.684rem;
+	font-weight: 600;
+}
+
+.bg1{
+	background: #fff;
+	border-left: 2px solid #3199e8;
+}
+
