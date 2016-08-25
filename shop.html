@@ -1,0 +1,31 @@
+<div class="shop_content">
+		<!-- 左边菜单部分 -->
+		<div class="shop_menu">
+			<ul>
+				<li class="shop_menu_list" ng-repeat="item in menu" ng-click="change($index)" ng-class="{bg1:num == $index}">
+					<i></i>
+					<span>{{item.name}}</span>
+				</li>
+			</ul>
+		</div>
+		<!-- 右边详情部分 -->
+		<div class="shop_food">
+			<div class="news">{{news}}</div>
+			<div class="menu_details">
+				<ul>
+					<li ng-repeat="item in foodlists">
+						<a href="#/shop/{{geohash}}/{{item.id}}">
+							<div class="menu_details_left">
+								<img src="https://fuss10.elemecdn.com/{{item.image_path}}">
+							</div>
+							<div class="menu_details_right">
+								<span class="menu_d_r_name">{{item.name}}</span>
+								<span class="menu_d_r_pj">0评价 {{item.tips}}</span>
+								<span class="menu_d_r_price">¥{{item.price}}.00</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
